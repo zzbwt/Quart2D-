@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D589FEE21C1EC127006DB872 /* UIImageCommonOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589FEE11C1EC127006DB872 /* UIImageCommonOperations.swift */; };
+		D589FEE41C1EC393006DB872 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = D589FEE31C1EC393006DB872 /* girl.png */; };
+		D589FEE61C1FB99F006DB872 /* CoreTextDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589FEE51C1FB99F006DB872 /* CoreTextDisplay.swift */; };
+		D59435FF1C1AC2C5008AE0C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59435FE1C1AC2C5008AE0C8 /* AppDelegate.swift */; };
+		D59436011C1AC2C5008AE0C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59436001C1AC2C5008AE0C8 /* ViewController.swift */; };
+		D59436041C1AC2C5008AE0C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59436021C1AC2C5008AE0C8 /* Main.storyboard */; };
+		D59436061C1AC2C5008AE0C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59436051C1AC2C5008AE0C8 /* Assets.xcassets */; };
+		D59436091C1AC2C5008AE0C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59436071C1AC2C5008AE0C8 /* LaunchScreen.storyboard */; };
+		D59436111C1AC2E5008AE0C8 /* Quart2DStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59436101C1AC2E5008AE0C8 /* Quart2DStudy.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D589FEE11C1EC127006DB872 /* UIImageCommonOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageCommonOperations.swift; sourceTree = "<group>"; };
+		D589FEE31C1EC393006DB872 /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
+		D589FEE51C1FB99F006DB872 /* CoreTextDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreTextDisplay.swift; sourceTree = "<group>"; };
+		D59435FB1C1AC2C5008AE0C8 /* Quart2D学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quart2D学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59435FE1C1AC2C5008AE0C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D59436001C1AC2C5008AE0C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D59436031C1AC2C5008AE0C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D59436051C1AC2C5008AE0C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D59436081C1AC2C5008AE0C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D594360A1C1AC2C5008AE0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59436101C1AC2E5008AE0C8 /* Quart2DStudy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quart2DStudy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D59435F81C1AC2C5008AE0C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D59435F21C1AC2C5008AE0C8 = {
+			isa = PBXGroup;
+			children = (
+				D59435FD1C1AC2C5008AE0C8 /* Quart2D学习 */,
+				D59435FC1C1AC2C5008AE0C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D59435FC1C1AC2C5008AE0C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D59435FB1C1AC2C5008AE0C8 /* Quart2D学习.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D59435FD1C1AC2C5008AE0C8 /* Quart2D学习 */ = {
+			isa = PBXGroup;
+			children = (
+				D59435FE1C1AC2C5008AE0C8 /* AppDelegate.swift */,
+				D59436001C1AC2C5008AE0C8 /* ViewController.swift */,
+				D59436101C1AC2E5008AE0C8 /* Quart2DStudy.swift */,
+				D589FEE11C1EC127006DB872 /* UIImageCommonOperations.swift */,
+				D589FEE51C1FB99F006DB872 /* CoreTextDisplay.swift */,
+				D589FEE31C1EC393006DB872 /* girl.png */,
+				D59436021C1AC2C5008AE0C8 /* Main.storyboard */,
+				D59436051C1AC2C5008AE0C8 /* Assets.xcassets */,
+				D59436071C1AC2C5008AE0C8 /* LaunchScreen.storyboard */,
+				D594360A1C1AC2C5008AE0C8 /* Info.plist */,
+			);
+			path = "Quart2D学习";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D59435FA1C1AC2C5008AE0C8 /* Quart2D学习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D594360D1C1AC2C5008AE0C8 /* Build configuration list for PBXNativeTarget "Quart2D学习" */;
+			buildPhases = (
+				D59435F71C1AC2C5008AE0C8 /* Sources */,
+				D59435F81C1AC2C5008AE0C8 /* Frameworks */,
+				D59435F91C1AC2C5008AE0C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quart2D学习";
+			productName = "Quart2D学习";
+			productReference = D59435FB1C1AC2C5008AE0C8 /* Quart2D学习.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D59435F31C1AC2C5008AE0C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = lord;
+				TargetAttributes = {
+					D59435FA1C1AC2C5008AE0C8 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = D59435F61C1AC2C5008AE0C8 /* Build configuration list for PBXProject "Quart2D学习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D59435F21C1AC2C5008AE0C8;
+			productRefGroup = D59435FC1C1AC2C5008AE0C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D59435FA1C1AC2C5008AE0C8 /* Quart2D学习 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D59435F91C1AC2C5008AE0C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59436091C1AC2C5008AE0C8 /* LaunchScreen.storyboard in Resources */,
+				D589FEE41C1EC393006DB872 /* girl.png in Resources */,
+				D59436061C1AC2C5008AE0C8 /* Assets.xcassets in Resources */,
+				D59436041C1AC2C5008AE0C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D59435F71C1AC2C5008AE0C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D589FEE61C1FB99F006DB872 /* CoreTextDisplay.swift in Sources */,
+				D59436011C1AC2C5008AE0C8 /* ViewController.swift in Sources */,
+				D59435FF1C1AC2C5008AE0C8 /* AppDelegate.swift in Sources */,
+				D589FEE21C1EC127006DB872 /* UIImageCommonOperations.swift in Sources */,
+				D59436111C1AC2E5008AE0C8 /* Quart2DStudy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D59436021C1AC2C5008AE0C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59436031C1AC2C5008AE0C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D59436071C1AC2C5008AE0C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59436081C1AC2C5008AE0C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D594360B1C1AC2C5008AE0C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D594360C1C1AC2C5008AE0C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D594360E1C1AC2C5008AE0C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quart2D学习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.lord.Quart2D--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D594360F1C1AC2C5008AE0C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quart2D学习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.lord.Quart2D--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D59435F61C1AC2C5008AE0C8 /* Build configuration list for PBXProject "Quart2D学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D594360B1C1AC2C5008AE0C8 /* Debug */,
+				D594360C1C1AC2C5008AE0C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D594360D1C1AC2C5008AE0C8 /* Build configuration list for PBXNativeTarget "Quart2D学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D594360E1C1AC2C5008AE0C8 /* Debug */,
+				D594360F1C1AC2C5008AE0C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D59435F31C1AC2C5008AE0C8 /* Project object */;
+}
