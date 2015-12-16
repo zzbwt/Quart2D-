@@ -10,6 +10,7 @@
 		D589FEE21C1EC127006DB872 /* UIImageCommonOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589FEE11C1EC127006DB872 /* UIImageCommonOperations.swift */; };
 		D589FEE41C1EC393006DB872 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = D589FEE31C1EC393006DB872 /* girl.png */; };
 		D589FEE61C1FB99F006DB872 /* CoreTextDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589FEE51C1FB99F006DB872 /* CoreTextDisplay.swift */; };
+		D589FEEE1C214AB1006DB872 /* text.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D589FEED1C214AB1006DB872 /* text.rtf */; };
 		D59435FF1C1AC2C5008AE0C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59435FE1C1AC2C5008AE0C8 /* AppDelegate.swift */; };
 		D59436011C1AC2C5008AE0C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59436001C1AC2C5008AE0C8 /* ViewController.swift */; };
 		D59436041C1AC2C5008AE0C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59436021C1AC2C5008AE0C8 /* Main.storyboard */; };
@@ -22,6 +23,8 @@
 		D589FEE11C1EC127006DB872 /* UIImageCommonOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageCommonOperations.swift; sourceTree = "<group>"; };
 		D589FEE31C1EC393006DB872 /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
 		D589FEE51C1FB99F006DB872 /* CoreTextDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreTextDisplay.swift; sourceTree = "<group>"; };
+		D589FEE91C21462E006DB872 /* Quart2D学习-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quart2D学习-Bridging-Header.h"; sourceTree = "<group>"; };
+		D589FEED1C214AB1006DB872 /* text.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = text.rtf; sourceTree = "<group>"; };
 		D59435FB1C1AC2C5008AE0C8 /* Quart2D学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quart2D学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59435FE1C1AC2C5008AE0C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D59436001C1AC2C5008AE0C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +65,7 @@
 		D59435FD1C1AC2C5008AE0C8 /* Quart2D学习 */ = {
 			isa = PBXGroup;
 			children = (
+				D589FEED1C214AB1006DB872 /* text.rtf */,
 				D59435FE1C1AC2C5008AE0C8 /* AppDelegate.swift */,
 				D59436001C1AC2C5008AE0C8 /* ViewController.swift */,
 				D59436101C1AC2E5008AE0C8 /* Quart2DStudy.swift */,
@@ -72,6 +76,7 @@
 				D59436051C1AC2C5008AE0C8 /* Assets.xcassets */,
 				D59436071C1AC2C5008AE0C8 /* LaunchScreen.storyboard */,
 				D594360A1C1AC2C5008AE0C8 /* Info.plist */,
+				D589FEE91C21462E006DB872 /* Quart2D学习-Bridging-Header.h */,
 			);
 			path = "Quart2D学习";
 			sourceTree = "<group>";
@@ -102,7 +107,7 @@
 		D59435F31C1AC2C5008AE0C8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = lord;
 				TargetAttributes = {
@@ -138,6 +143,7 @@
 				D589FEE41C1EC393006DB872 /* girl.png in Resources */,
 				D59436061C1AC2C5008AE0C8 /* Assets.xcassets in Resources */,
 				D59436041C1AC2C5008AE0C8 /* Main.storyboard in Resources */,
+				D589FEEE1C214AB1006DB872 /* text.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +271,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Quart2D学习/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.lord.Quart2D--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quart2D学习/Quart2D学习-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -276,10 +285,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Quart2D学习/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.lord.Quart2D--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quart2D学习/Quart2D学习-Bridging-Header.h";
 			};
 			name = Release;
 		};

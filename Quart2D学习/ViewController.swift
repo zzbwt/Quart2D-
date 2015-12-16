@@ -14,11 +14,20 @@ class ViewController: UIViewController {
     var progress:CGFloat!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        firstDrawViewFunc()
-        
-        secondeDrawViewFunc()
 
+      
+        
+        contextDisplay()
+    }
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
+    
+    func contextDisplay () {
+        let contextDisplayView = CTDisplayView(frame:self.view.bounds)
+        contextDisplayView.backgroundColor = UIColor.whiteColor()
+        self.view.addSubview(contextDisplayView)
     }
     
     func secondeDrawViewFunc () {
